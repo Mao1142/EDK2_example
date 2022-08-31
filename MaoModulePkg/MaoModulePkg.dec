@@ -1,0 +1,22 @@
+## @file  MdeModulePkg.dec
+# This package provides the modules that conform to UEFI/PI Industry standards.
+# It also provides the definitions(including PPIs/PROTOCOLs/GUIDs and library classes)
+# and libraries instances, which are used for those modules.
+#
+# Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+# Copyright (c) 2007 - 2021, Intel Corporation. All rights reserved.<BR>
+# Copyright (c) 2016, Linaro Ltd. All rights reserved.<BR>
+# (C) Copyright 2016 - 2019 Hewlett Packard Enterprise Development LP<BR>
+# Copyright (c) 2017, AMD Incorporated. All rights reserved.<BR>
+# Copyright (c) Microsoft Corporation.<BR>
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = MaoModulePkg
+  PACKAGE_GUID                   = 406D64D5-2B1B-92C5-F6F4-0648C9AF6A27
+  PACKAGE_VERSION                = 0.98
+
